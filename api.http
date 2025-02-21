@@ -1,0 +1,23 @@
+POST http://localhost:3333/subscriptions
+Content-Type: application/json
+
+{
+  "name":"FAZ O L",
+  "email":"l@mets.com.br",
+  "referrer":"bd7e7e07-4544-4ab3-b006-ed79240c12a"
+}
+
+###
+GET http://localhost:3333/invites/cc975963-4d41-454e-8e29-2f1727c53318
+
+###
+GET http://localhost:3333/subscribers/cc975963-4d41-454e-8e29-2f1727c53318/ranking/clicks
+
+###
+GET http://localhost:3333/subscribers/bd7e7e07-4544-4ab3-b006-ed79240c12a3/ranking/count
+
+###
+GET http://localhost:3333/subscribers/cc975963-4d41-454e-8e29-2f1727c53318/ranking/position
+
+###
+GET http://localhost:3333/ranking
